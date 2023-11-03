@@ -1,4 +1,4 @@
-package com.example.progresstracker.entity;
+package org.example.entity;
 
 public class Objectif {
     private int id;

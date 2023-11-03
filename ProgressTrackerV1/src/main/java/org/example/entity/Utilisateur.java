@@ -1,4 +1,4 @@
-package com.example.progresstracker.entity;
+package org.example.entity;
 
 import java.util.List;
 
@@ -10,6 +10,12 @@ public class Utilisateur {
 
     public Utilisateur(int id, String nom, String avatar, List<Objectif> objectifs) {
         this.id = id;
+        this.nom = nom;
+        this.avatar = avatar;
+        this.objectifs = objectifs;
+    }
+
+    public Utilisateur(String nom, String avatar, List<Objectif> objectifs) {
         this.nom = nom;
         this.avatar = avatar;
         this.objectifs = objectifs;
